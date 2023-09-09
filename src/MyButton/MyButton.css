@@ -70,19 +70,19 @@
 }
 
 .fv-button.small {
-  max-width: var(--small-button-width);
+  width: var(--small-button-width);
   height: var(--small-button-height);
   font-weight: (var(--small-button-weight));
   font-size: 16px;
 }
 .fv-button.middle {
-  max-width: var(--middle-button-width);
+  width: var(--middle-button-width);
   height: var(--middle-button-height);
   font-size: 18px;
   font-weight: (var(--middle-button-weight));
 }
 .fv-button.large {
-  max-width: var(--large-button-width);
+  width: var(--large-button-width);
   height: var(--large-button-height);
   font-size: 22px;
   font-weight: (var(--large-button-weight));
