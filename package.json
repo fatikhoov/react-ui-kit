@@ -1,6 +1,6 @@
 {
   "name": "starpage-ui-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Мой первый учебный ui-kit",
   "main": "./dist/index.js",
   "scripts": {
