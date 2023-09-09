@@ -28,10 +28,10 @@
 }
 
 .fv-button {
-  width: 100%;
+  width: var(--small-button-width);
+  height: var(--small-button-height);
   position: relative;
 
-  height: var(--small-button-height);
   font-weight: (var(--small-button-weight));
   font-size: 16px;
   line-height: inherit;
