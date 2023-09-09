@@ -1,4 +1,4 @@
-# Starpage UI Kit by Fatikhov
+# <a href='https://www.npmjs.com/package/starpage-ui-kit' target="_blank" rel="noopener noreferrer">Starpage UI Kit</a> by Fatikhov
 
 <a href='https://www.npmjs.com/package/starpage-ui-kit' target="_blank" rel="noopener noreferrer">Starpage UI Kit</a> - это набор готовых компонентов и стилей Starpage для создания пользовательских интерфейсов с использованием React и TypeScript.
 
