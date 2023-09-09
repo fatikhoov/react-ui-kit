@@ -3,20 +3,28 @@ import './MyButton.css'
 
 export interface MyButtonProps {
   children: any
-  color: string
-  big?: boolean
+  fvclassname?: string
+  disabled?: boolean
 }
 
-const MyButton: FC<MyButtonProps> = ({ children, color, big, ...props }) => {
-  const rootClasses = ['my-button']
-
-  if (big) {
-    rootClasses.push('my-button-big')
+const MyButton: FC<MyButtonProps> = ({
+  children,
+  fvclassname,
+  disabled,
+  ...props
+}) => {
+  const classNames = ['fv-button']
+  if (fvclassname) {
+    classNames.push(fvclassname)
   }
 
   return (
-    <button {...props} className={rootClasses.join(' ')} style={{ color }}>
-      {children}
+    <button
+      {...props}
+      className={classNames.join(' ')}
+      disabled={disabled ? true : false}
+    >
+      <span>{children}</span>
     </button>
   )
 }

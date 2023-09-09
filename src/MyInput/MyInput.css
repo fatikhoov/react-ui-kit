@@ -1,0 +1,10 @@
+.my-input {
+  background-color: aqua;
+  width: 200px;
+  height: 60px;
+}
+.my-input-big {
+  background-color: slateblue;
+  width: 200px;
+  height: 120px;
+}
