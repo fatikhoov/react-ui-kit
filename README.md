@@ -1,6 +1,6 @@
 # Starpage UI Kit by Fatikhov
 
-Starpage UI Kit - это набор готовых компонентов и стилей Starpage для создания пользовательских интерфейсов с использованием React и TypeScript.
+<a href='https://www.npmjs.com/package/starpage-ui-kit'>Starpage UI Kit</a> - это набор готовых компонентов и стилей Starpage для создания пользовательских интерфейсов с использованием React и TypeScript.
 
 ## Установка
 
