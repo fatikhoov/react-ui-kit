@@ -9,7 +9,7 @@ export interface MyButtonProps {
 
 const MyButton: FC<MyButtonProps> = ({
   children,
-  fvclassname,
+  fvclassname = 'small',
   disabled,
   ...props
 }) => {
