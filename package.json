@@ -24,7 +24,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fatikhoov/react-ui-kit.git"
+    "url": "https://github.com/fatikhoov/ui-kit-react-typescript-storybook"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.15",

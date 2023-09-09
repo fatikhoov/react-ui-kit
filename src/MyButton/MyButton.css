@@ -29,11 +29,11 @@
 
 .fv-button {
   width: 100%;
-  height: inherit;
   position: relative;
 
+  height: var(--small-button-height);
+  font-weight: (var(--small-button-weight));
   font-size: 16px;
-  font-weight: 500;
   line-height: inherit;
   text-align: center;
   font-style: inherit;
